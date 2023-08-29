@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Hotstar-React-Project/static/css/main.1c27cdfe.css",
+    "main.js": "/Hotstar-React-Project/static/js/main.7bf1110e.js",
+    "index.html": "/Hotstar-React-Project/index.html",
+    "main.1c27cdfe.css.map": "/Hotstar-React-Project/static/css/main.1c27cdfe.css.map",
+    "main.7bf1110e.js.map": "/Hotstar-React-Project/static/js/main.7bf1110e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c27cdfe.css",
+    "static/js/main.7bf1110e.js"
+  ]
+}

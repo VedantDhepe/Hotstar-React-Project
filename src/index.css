@@ -1,13 +1,96 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: #ff4886 ;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.heading{
+  padding: 30px 0px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #fafa3c;
+  background-color: #b0318c;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
 }
+
+.card{
+  margin: 6%;
+  transition: all 0.4 cubic-bezier(0.175, 0.885, 0, 1);
+  background-color: #ff5410;
+  width: 21.25%;
+  border-radius: 12px;
+  box-shadow: 0px 13px 10px -7px rgba(190, 178, 178, 0.1);
+  float: left;
+}
+
+.card:hover{
+  box-shadow: 0px 30px 18px -8px rgb(22, 3, 3);
+}
+
+.card_img{
+  width: 100%;
+  height: 325px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card_info{
+  background-color: antiquewhite;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 16px 24px 24px 24px;
+  background-color: #4a4169;
+
+}
+
+.card_category{
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  background-color: #dca6a6;
+}
+
+.App-header {
+  background-color: #204693;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(145, 45, 45);
+}
+
+
+.cart_title{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #8a0606;
+  text-transform: capitalize;
+}
+
+button{
+  padding: 5px 8px;
+  font-family:'Times New Roman', Times, serif;
+  text-transform:uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 300px;
+  color: rgb(239, 255, 17);
+  background-color: rgb(255, 5, 5);
+  outline: none;
+  border: 1px solid rgb(187, 21, 21);
+  cursor: pointer;
+}
+
+

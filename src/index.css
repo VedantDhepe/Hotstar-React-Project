@@ -3,7 +3,7 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  background-color: #ff4886 ;
+  background-color: #0f1014 ;
 }
 
 .heading{
@@ -26,12 +26,12 @@
   background-color: #ff5410;
   width: 21.25%;
   border-radius: 12px;
-  box-shadow: 0px 13px 10px -7px rgba(190, 178, 178, 0.1);
+  box-shadow: 20px 20px 20px 0px #aa1313;
   float: left;
 }
 
 .card:hover{
-  box-shadow: 0px 30px 18px -8px rgb(22, 3, 3);
+  box-shadow: 20px 20px 20px 20px rgb(15, 159, 25);
 }
 
 .card_img{
